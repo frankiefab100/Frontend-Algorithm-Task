@@ -1,7 +1,7 @@
 
 // Solution to Question 1
 const convertFahrToCelsius(value){
-if(typeof number || typeof == "string" ){
+if(typeof value == number || typeof value == "string"){
     let value = celsius * (9/5) + 32;
     return value.toFixed(4);
 }
