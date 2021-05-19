@@ -1,13 +1,13 @@
 
 // Solution to Question 1
 const convertFahrToCelsius(value){
-if(value.type == number || value.type == "string" ){
+if(typeof number || typeof == "string" ){
     let value = celsius * (9/5) + 32;
     return value.toFixed(4);
 }
 
 else{
-    return `${value} is not a valid number but a/an ${value.type}`
+    return `${value} is not a valid number but a/an ${typeof value}`
 }
 }
 
